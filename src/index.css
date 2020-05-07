@@ -9,3 +9,154 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* HEADER */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(44, 55, 78);
+  color: white;
+  align-items: center;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 30px;
+  color: white;
+}
+
+.menu-btn:focus {
+  outline: none;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+}
+
+.navbar-ul {
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  margin-right: 100px;
+  margin-top: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inactive {
+  color: white;
+}
+
+.inactive:hover {
+  color: rgb(158, 158, 158);
+}
+
+.active {
+  border-bottom: 1px solid white;
+  padding: 6px 0;
+}
+
+.navbar-li {
+  padding: 17px 25px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.navbar-li:hover {
+  cursor: pointer;
+  color: rgb(53, 53, 53);
+}
+
+.fa-home,
+.fa-shopping-cart,
+.fa-sign-in,
+.fa-user {
+  color: white;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background-color: rgb(28, 31, 30);
+  height: 200vh;
+  padding-left: 20px;
+  width: 330px;
+  position: fixed;
+  z-index: 200;
+  top: 80px;
+  transition: 0.4s ease-out;
+}
+
+.side-nav {
+  color: white;
+}
+
+.side-nav:hover {
+  color: rgb(68, 145, 141);
+}
+
+.sidebar-ul {
+  display: inline;
+  list-style: none;
+}
+
+.sidebar-li {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  padding: 14px 0;
+  transition: transform 0.2s;
+}
+
+.sidebar-li:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.sidebar-nav {
+  margin: 40px 0;
+}
+
+/* CONTENT */
+.page {
+  margin-top: 58px;
+}
+
+.products {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  margin: 5% 10%;
+}
+
+.card {
+  width: 200px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.item-img {
+  width: 200px;
+  height: 200px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 41px;
+  padding: 35px 0 0 0;
+  font-family: "Poiret One", cursive;
+}
