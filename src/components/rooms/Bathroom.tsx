@@ -23,7 +23,7 @@ function Bathroom() {
 
     return (
         <div className="bathroom page">
-            <p className="page-title">Bathdroom</p>
+            <p className="page-title">Bathroom</p>
             <div className="products">
                 {bathroomProducts}
             </div>

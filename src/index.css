@@ -160,3 +160,107 @@ a {
   padding: 35px 0 0 0;
   font-family: "Poiret One", cursive;
 }
+
+/* PRODUCT DETAILS */
+.top-div {
+  margin: 0 21%;
+  padding: 50px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.div-img {
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.product-img {
+  width: 260px;
+}
+
+.div-cart {
+  width: auto;
+  height: auto;
+  float: right;
+  width: 320px;
+}
+
+.div-about {
+  clear: both;
+  width: inherit;
+  height: auto;
+  position: static;
+  padding: 15px 263px 30px 263px;
+}
+
+.details-add-btn {
+  border: none;
+  padding: 12px 18px;
+  background-color: rgb(240, 109, 22);
+  color: white;
+  font-size: 14px;
+}
+
+.details-add-btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.details-add-btn:focus {
+  outline: none;
+}
+
+.fa-trash {
+  margin-right: 10px;
+}
+
+.details-name {
+  font-size: 21px;
+  font-weight: 600px;
+}
+
+.details-amount {
+  font-size: 17px;
+}
+
+.details-id {
+  font-size: 14px;
+}
+
+.input-cart {
+  width: 146px;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 11px 10px;
+}
+
+.about-name {
+  font-size: 19px;
+}
+
+.about-text {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.details-delete-btn {
+  border: none;
+  padding: 12px 18px;
+  background-color: rgb(233, 32, 32);
+  color: white;
+  font-size: 14px;
+  margin-top: 13px;
+  border-radius: 6px;
+}
+
+.details-delete-btn:hover {
+  background-color: rgb(196, 0, 0);
+  cursor: pointer;
+}
+
+.details-delete-btn:focus {
+  outline: none;
+}
+
+.fa-cart-plus {
+  margin-right: 10px;
+}

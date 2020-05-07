@@ -11,6 +11,7 @@ import Bathroom from '../rooms/Bathroom'
 import Office from '../rooms/Office'
 import Outdoor from '../rooms/Outdoor'
 import SignUp from '../nav-pages/SignUp'
+import ProductDetails from '../ProductDetails'
 
 function Routes() {
     return (
@@ -19,13 +20,20 @@ function Routes() {
             <Route path="/cart" component={Cart} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={SignUp} />
-            <Route path="/livingroom" component={LivingRoom} />>
-            <Route path="/bedroom" component={Bedroom} />
-            <Route path="/kitchen" component={Kitchen} />
-            <Route path="/diningroom" component={DiningRoom} />
-            <Route path="/bathroom" component={Bathroom} />
-            <Route path="/office" component={Office} />
-            <Route path="/outdoor" component={Outdoor} />
+            <Route path="/livingroom" exact component={LivingRoom} />
+            <Route path="/livingroom/:id" component={ProductDetails} />
+            <Route path="/bedroom" exact component={Bedroom} />
+            <Route path="/bedroom/:id" component={ProductDetails} />
+            <Route path="/kitchen" exact component={Kitchen} />
+            <Route path="/kitchen/:id" component={ProductDetails} />
+            <Route path="/diningroom" exact component={DiningRoom} />
+            <Route path="/diningroom/:id" component={ProductDetails} />
+            <Route path="/bathroom" exact component={Bathroom} />
+            <Route path="/bathroom/:id" component={ProductDetails} />
+            <Route path="/office" exact component={Office} />
+            <Route path="/office/:id" component={ProductDetails} />
+            <Route path="/outdoor" exact component={Outdoor} />
+            <Route path="/outdoor/:id" component={ProductDetails} />
         </Switch>
     )
 }
