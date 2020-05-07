@@ -10,7 +10,7 @@ code {
     monospace;
 }
 
-/* HEADER */
+/* NAVIGATION BAR */
 .navbar {
   width: 100%;
   height: 80px;
@@ -127,7 +127,7 @@ a {
   margin: 40px 0;
 }
 
-/* CONTENT */
+/* ROOMS */
 .page {
   margin-top: 58px;
 }

@@ -1,0 +1,520 @@
+{
+    "bedroom": [
+        {
+            "id": 1,
+            "name": "Bed Lauvik",
+            "image": "https://www.ikea.com/hr/hr/images/products/songesand-bed-frame-white__0550507_PE658200_S5.JPG?f=s",
+            "price": {
+                "amount": 4549,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Noćni ormarić Setskog",
+            "image": "https://www.ikea.com/hr/hr/images/products/setskog-bedside-table-black__0858406_PE646880_S5.JPG?f=s",
+            "price": {
+                "amount": 229,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Uzglavlje Brimnes",
+            "image": "https://www.ikea.com/hr/hr/images/products/brimnes-headboard-with-storage-compartment__0636302_PE697794_S5.JPG?f=g",
+            "price": {
+                "amount": 600,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Pomoćni stolić Tranaro",
+            "image": "https://www.ikea.com/hr/hr/images/products/tranaroe-stool-side-table-in-outdoor-red__0907945_PE714013_S5.JPG?f=s",
+            "price": {
+                "amount": 129.90,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Ukrasni jastuk Sommaraster",
+            "image": "https://www.ikea.com/hr/hr/images/products/sommaraster-cushion-white-multicolour__0662329_PE711835_S5.JPG?f=g",
+            "price": {
+                "amount": 29.90,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Ormar Brimnes",
+            "image": "https://www.ikea.com/hr/hr/images/products/brimnes-wardrobe-with-3-doors-black__0428307_PE583468_S5.JPG?f=xxxl",
+            "price": {
+                "amount": 990,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Prekrivač za krevet Indira",
+            "image": "https://www.ikea.com/hr/hr/images/products/trattviva-bedspread-dark-pink__0736988_PE740849_S5.JPG?f=s",
+            "price": {
+                "amount": 90.90,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Komoda Bryggja",
+            "image": "https://www.ikea.com/hr/hr/images/products/bryggja-chest-of-9-drawers__0778109_PE760066_S5.JPG?f=xxxl",
+            "price": {
+                "amount": 1999,
+                "unit": "kn"
+            }
+        }
+    ],
+    "bathroom": [
+        {
+            "id": 9,
+            "name": "Umivaonik Kattevik",
+            "image": "https://www.ikea.com/hr/hr/images/products/kattevik-countertop-wash-basin__0864234_PE658663_S5.JPG?f=xxxl",
+            "price": {
+                "amount": 800,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Regal za odlaganje Vilto",
+            "image": "https://www.ikea.com/hr/hr/images/products/vilto-shelving-unit-birch__0863586_PE655016_S5.JPG?f=xxxl",
+            "price": {
+                "amount": 499,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Kupaonski namještaj Tornviken",
+            "image": "https://www.ikea.com/hr/hr/images/products/godmorgon-tolken-toernviken-bathroom-furniture-set-of-6__0756595_PE748966_S5.JPG?f=xxxl",
+            "price": {
+                "amount": 5326,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Wc sjedalo Roca Debba",
+            "image": "https://pevex.hr/media/catalog/product/cache/d46e7ff9bf21dac5393cb76c239f1f61/2/9/297911_3.jpg",
+            "price": {
+                "amount": 399.99,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Bide stojeći Nexo",
+            "image": "https://pevex.hr/media/catalog/product/cache/d46e7ff9bf21dac5393cb76c239f1f61/2/6/264277_2.jpg",
+            "price": {
+                "amount": 699.99,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Wellnes tuš kabina Aquaart",
+            "image": "https://pevex.hr/media/catalog/product/cache/d46e7ff9bf21dac5393cb76c239f1f61/2/9/299676_lugo.jpg",
+            "price": {
+                "amount": 2799.90,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Ručica tuša Etta Fresh",
+            "image": "https://pevex.hr/media/catalog/product/cache/d46e7ff9bf21dac5393cb76c239f1f61/3/1/312716.jpg",
+            "price": {
+                "amount": 59.90,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Kada Nautica 150L",
+            "image": "https://pevex.hr/media/catalog/product/cache/d46e7ff9bf21dac5393cb76c239f1f61/2/5/254617_kada_aquaart_nautica_150l_nova.jpg",
+            "price": {
+                "amount": 1499.90,
+                "unit": "kn"
+            }
+        }
+    ],
+    "livingRoom": [
+        {
+            "id": 17,
+            "name": "Četverosjed Soderhamn",
+            "image": "https://www.ikea.com/hr/hr/images/products/soederhamn-sectional-4-seat__0802719_PE768560_S5.JPG?f=s",
+            "price": {
+                "amount": 5920,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Fotelja Remsta",
+            "image": "https://www.ikea.com/hr/hr/images/products/remsta-armchair-djuparp-dark-green-blue__0474490_PE615066_S5.JPG?f=s",
+            "price": {
+                "amount": 999,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Tabure Sandared",
+            "image": "https://www.ikea.com/hr/hr/images/products/sandared-pouffe__0842767_PE662674_S5.JPG?f=s",
+            "price": {
+                "amount": 699,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Stolna lampa Sjopenna",
+            "image": "https://www.ikea.com/hr/hr/images/products/sjoepenna-table-lamp__0880774_PE644426_S5.JPG?f=s",
+            "price": {
+                "amount": 120,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Stolić Vittsjo",
+            "image": "https://www.ikea.com/hr/hr/images/products/vittsjoe-coffee-table-black-brown-glass__0836655_PE601386_S5.JPG?f=s",
+            "price": {
+                "amount": 299,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 22,
+            "name": "TV klupa Besta",
+            "image": "https://www.ikea.com/hr/hr/images/products/besta-tv-unit-with-doors-and-drawers-white-lappviken-stubbarp-white__0747010_PE744341_S5.JPG?f=s",
+            "price": {
+                "amount": 1749,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Tepih Arnager",
+            "image": "https://www.ikea.com/hr/hr/images/products/arnager-rug__0894240_PE716095_S5.JPG?f=s",
+            "price": {
+                "amount": 499,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Biblioteka Billy",
+            "image": "https://www.ikea.com/hr/hr/images/products/billy-bookcase-white__0394567_PE561390_S5.JPG?f=s",
+            "price": {
+                "amount": 299,
+                "unit": "kn"
+            }
+        }
+    ],
+    "office": [
+        {
+            "id": 25,
+            "name": "Radni stol Micke",
+            "image": "https://www.ikea.com/hr/hr/images/products/micke-desk__0851445_PE641684_S5.JPG?f=s",
+            "price": {
+                "amount": 499,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Radna stolica Markus",
+            "image": "https://www.ikea.com/hr/hr/images/products/markus-office-chair__0399810_PE563882_S5.JPG?f=s",
+            "price": {
+                "amount": 998,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Radna lampa Hectar",
+            "image": "https://www.ikea.com/hr/hr/images/products/hektar-work-lamp-dark-grey__0880888_PE612597_S5.JPG?f=s",
+            "price": {
+                "amount": 349,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Radni stol s policom Kallax",
+            "image": "https://www.ikea.com/hr/hr/images/products/kallax-desk-combination__0396054_PE564511_S5.JPG?f=s",
+            "price": {
+                "amount": 658,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 29,
+            "name": "Uredska stolica Alefjall",
+            "image": "https://www.ikea.com/hr/hr/images/products/alefjaell-office-chair-grann-golden-brown__0724709_PE734591_S5.JPG?f=s",
+            "price": {
+                "amount": 1699,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Radni stol Lillasen",
+            "image": "https://www.ikea.com/hr/hr/images/products/lillasen-desk-bamboo__0657171_PE709648_S5.JPG?f=s",
+            "price": {
+                "amount": 998,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 31,
+            "name": "Ploča Svensas",
+            "image": "https://www.ikea.com/hr/hr/images/products/svensas-memo-board-white__0748934_PE745333_S5.JPG?f=s",
+            "price": {
+                "amount": 69,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 32,
+            "name": "Element Eket",
+            "image": "https://www.ikea.com/hr/hr/images/products/eket-cabinet-combination-with-feet-white-golden-brown-dark-grey__0709325_PE726940_S5.JPG?f=s",
+            "price": {
+                "amount": 1970,
+                "unit": "kn"
+            }
+        }
+    ],
+    "diningRoom": [
+        {
+            "id": 33,
+            "name": "Stol Lisabo",
+            "image": "https://www.ikea.com/hr/hr/images/products/lisabo-table__0871285_PE724136_S5.JPG?f=xxl",
+            "price": {
+                "amount": 1299,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 34,
+            "name": "Stolica Volfgang",
+            "image": "https://www.ikea.com/hr/hr/images/products/volfgang-chair__0874524_PE700223_S5.JPG?f=xxl",
+            "price": {
+                "amount": 499,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 35,
+            "name": "Stolanjak Sommarliv",
+            "image": "https://www.ikea.com/hr/hr/images/products/sommarliv-tablecloth__0816839_PE773709_S5.JPG?f=s",
+            "price": {
+                "amount": 59,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 36,
+            "name": "Barski stolac Franklin",
+            "image": "https://www.ikea.com/hr/hr/images/products/moerbylanga-table__0872570_PE713258_S5.JPG?f=s",
+            "price": {
+                "amount": 249,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 37,
+            "name": "Stolica Balstar",
+            "image": "https://www.ikea.com/hr/hr/images/products/baltsar-chair__0627381_PE693320_S5.JPG?f=xxl",
+            "price": {
+                "amount": 1199,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 38,
+            "name": "Blagovanski stol Verbo",
+            "image": "https://www.ikea.com/hr/hr/images/products/vedbo-dining-table__0815092_PE772753_S5.JPG?f=xxl",
+            "price": {
+                "amount": 3998,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 39,
+            "name": "Zidni preklopni stol Bjur",
+            "image": "https://www.ikea.com/hr/hr/images/products/bjursta-wall-mounted-drop-leaf-table-brown-black__0871184_PE614162_S5.JPG?f=xxl",
+            "price": {
+                "amount": 249,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 40,
+            "name": "Barski stolac Raskog",
+            "image": "https://www.ikea.com/hr/hr/images/products/raskog-bar-stool-black__0873897_PE620307_S5.JPG?f=s",
+            "price": {
+                "amount": 199,
+                "unit": "kn"
+            }
+        }
+    ],
+    "kitchen": [
+        {
+            "id": 41,
+            "name": "Pećnica Gorlig",
+            "image": "https://www.ikea.com/hr/hr/images/products/goerlig-oven-stainless-steel__0603698_PE680895_S5.JPG?f=s",
+            "price": {
+                "amount": 1199,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 42,
+            "name": "Hladnjak Kylaslagen",
+            "image": "https://www.ikea.com/hr/hr/images/products/kylslagen-fridge-freezer__0755789_PE748598_S5.JPG?f=s",
+            "price": {
+                "amount": 6229,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 43,
+            "name": "Kuhalište Daglig",
+            "image": "https://www.ikea.com/hr/hr/images/products/daglig-glass-ceramic-hob__0307984_PE428023_S5.JPG?f=s",
+            "price": {
+                "amount": 1799,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 44,
+            "name": "Plinsko kuhalište Edslaga",
+            "image": "https://www.ikea.com/hr/hr/images/products/eldslaga-gas-hob__0755407_PE748420_S5.JPG?f=s",
+            "price": {
+                "amount": 1989,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 45,
+            "name": "Stropna napa Savande",
+            "image": "https://www.ikea.com/hr/hr/images/products/svaevande-ceiling-mounted-extractor-hood__0867831_PE687381_S5.JPG?f=s",
+            "price": {
+                "amount": 3998,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 46,
+            "name": "Kuhinjski otok Tornviken",
+            "image": "https://www.ikea.com/hr/hr/images/products/tornviken-kitchen-island-off-white-oak__0870928_PE684550_S5.JPG?f=s",
+            "price": {
+                "amount": 2199,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 47,
+            "name": "Zidni element Metod",
+            "image": "https://www.ikea.com/hr/hr/images/products/metod-wall-cabinet-horizontal-w-2-doors-white-ringhult-white__0214905_PE367668_S5.JPG?f=xl",
+            "price": {
+                "amount": 1158,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 48,
+            "name": "Fronte ladica Bodbyn",
+            "image": "https://www.ikea.com/hr/hr/images/products/bodbyn-drawer-front__0863460_PE659441_S5.JPG?f=s",
+            "price": {
+                "amount": 187,
+                "unit": "kn"
+            }
+        }
+    ],
+    "outdoor": [
+        {
+            "id": 49,
+            "name": "Vanjski stol i 2 stolcie Ashho",
+            "image": "https://www.ikea.com/hr/hr/images/products/askholmen-table-2-chairs-outdoor-grey-brown-stained__0667574_PE713977_S5.JPG?f=s",
+            "price": {
+                "amount": 488,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 50,
+            "name": "Ležaljka sa stalkom Garo",
+            "image": "https://www.ikea.com/hr/hr/images/products/garoe-fredoen-hammock-with-stand-grey-beige__0907369_PE616168_S5.JPG?f=s",
+            "price": {
+                "amount": 928,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 51,
+            "name": "Stol i 2 stolice Lacko",
+            "image": "https://www.ikea.com/hr/hr/images/products/laeckoe-table-2-chairs-outdoor-grey__0907235_PE634969_S5.JPG?f=s",
+            "price": {
+                "amount": 548,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 52,
+            "name": "Jastuk za ležaljku Hallo",
+            "image": "https://www.ikea.com/hr/hr/images/products/halloe-sun-lounger-pad__0907938_PE616226_S5.JPG?f=s",
+            "price": {
+                "amount": 349,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 53,
+            "name": "Ukrasni jastuk Ytteron",
+            "image": "https://www.ikea.com/hr/hr/images/products/ytteroen-chair-cushion-outdoor-blue__0603345_PE680768_S5.JPG?f=s",
+            "price": {
+                "amount": 39,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 54,
+            "name": "Suncobran Betso",
+            "image": "https://www.ikea.com/hr/hr/images/products/betsoe-lindoeja-parasol__0784710_PE761827_S5.JPG?f=s",
+            "price": {
+                "amount": 759,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 55,
+            "name": "Lončanica limun Citrus",
+            "image": "https://www.ikea.com/hr/hr/images/products/citrus-potted-plant__0899095_PE618666_S5.JPG?f=s",
+            "price": {
+                "amount": 199,
+                "unit": "kn"
+            }
+        },
+        {
+            "id": 56,
+            "name": "Roštilj na ugljen Klasen",
+            "image": "https://www.ikea.com/hr/hr/images/products/aepplaroe-klasen-charcoal-barbecue-with-cabinet-brown-stained-stainless-steel-colour__0755842_PE748645_S5.JPG?f=s",
+            "price": {
+                "amount": 2676,
+                "unit": "kn"
+            }
+        }
+    ]
+}
