@@ -230,7 +230,6 @@ a {
 .input-cart {
   width: 146px;
   border: 1px solid rgb(204, 204, 204);
-  padding: 11px 10px;
 }
 
 .about-name {
@@ -358,4 +357,125 @@ a {
   font-family: "Poiret One", cursive;
   font-size: 28px;
   padding-top: 20px;
+}
+
+/* SIGN UP FORM */
+.about,
+.login-inner {
+  width: 390px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(90, 90, 90, 0.144);
+}
+
+.btn-next,
+.btn-back {
+  width: 90px;
+  padding: 8px 0;
+  border: none;
+  background-color: rgb(3, 161, 3);
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 27px 0;
+}
+
+.btn-next:hover,
+.btn-back:hover {
+  cursor: pointer;
+  background-color: rgb(4, 201, 4);
+}
+
+.btn-next:focus,
+.btn-back:hover {
+  outline: none;
+}
+
+.btn-back {
+  margin-right: 28px;
+}
+
+.about-input {
+  margin: 14px 0;
+  width: 270px;
+}
+
+.user-title,
+.login-title {
+  font-size: 37px;
+  font-family: "Poiret One", cursive;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: -30px;
+  padding-top: 40px;
+}
+
+.confirm-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.confirm-text {
+  font-weight: 100;
+  margin: 16px 0;
+}
+
+.password {
+  margin-left: 40px;
+}
+
+.eye-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 0;
+  float: right;
+  margin-top: -45px;
+  margin-right: 10px;
+}
+
+.eye-btn:focus {
+  outline: none;
+}
+
+.eye-btn:hover{
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.valid {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  font-style: italic;
+}
+
+input {
+  padding: 10px;
+  width: 240px;
+  margin: 10px 0;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  border-bottom: 1px rgb(126, 126, 126) solid;
+}
+
+.created-title {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  margin-top: 130px;
+}
+
+.created-desc {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Poiret One", cursive;
 }
