@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import { useLocation } from 'react-router-dom'
+import { AppContext } from './context/AppContext'
 
 interface Product {
     id: number,
@@ -13,6 +14,8 @@ interface Product {
 }
 
 function ProductDetails() {
+
+    const { dispatch } = useContext(AppContext)
 
     const location = useLocation<Product>()
 
@@ -54,6 +57,7 @@ function ProductDetails() {
                         min="1"
                     />
                     <button className="details-add-btn"
+                        onClick={() => dispatch({ type: 'ADD_ITEM', payload: { ...location.state, counter: currentValue } })}
                     ><i className="fa fa-cart-plus"></i>Add to Cart
                     </button>
                 </div>

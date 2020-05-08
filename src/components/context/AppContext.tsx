@@ -11,5 +11,16 @@ export const AppContext = createContext({
         "livingRoom": [],
         "office": [],
         "outdoor": []
-    }
+    },
+    productList: [{
+        id: 0,
+        name: '',
+        image: '',
+        price: {
+            amount: 0,
+            currency: ''
+        }
+    }],
+    dispatch: ({ }) => { },
+    totalAmountRounded: "0.00 kn"
 })

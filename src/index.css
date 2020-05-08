@@ -264,3 +264,98 @@ a {
 .fa-cart-plus {
   margin-right: 10px;
 }
+
+/* SHOPPING CART */
+.cart {
+  font-family: "Quattrocento Sans", sans-serif;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-div {
+  float: right;
+  width: 400px;
+}
+
+.shop-cart {
+  border-bottom: 0.5px solid rgb(90, 90, 90);
+}
+
+.cart-img {
+  width: 160px;
+}
+
+.item-name {
+  font-weight: 600;
+}
+
+.item-amount {
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+
+.cart-btn-delete {
+  border: none;
+  background-color: rgb(247, 54, 54);
+  color: white;
+  padding: 4px 9px;
+  border-radius: 20px;
+  float: right;
+  margin: -20px 0;
+  margin-right: 12px;
+}
+
+.cart-btn-delete:hover {
+  cursor: pointer;
+  background-color: rgb(177, 33, 33);
+}
+
+.cart-btn-delete:focus {
+  outline: none;
+}
+
+.cart-subtotal {
+  font-weight: 600;
+}
+
+.cart-btn-pay {
+  border: none;
+  background-color: rgb(3, 146, 3);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 9px;
+  float: right;
+  margin-top: -43px;
+}
+
+.cart-btn-pay:hover {
+  cursor: pointer;
+  background-color: rgb(11, 102, 11);
+}
+
+.cart-btn-pay:focus {
+  outline: none;
+}
+
+.fa-shop {
+  color: white;
+  margin-right: 13px;
+  font-size: 16px;
+}
+
+.cart-total-div {
+  border: 0.5px solid white;
+  margin: 15px;
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+.empty-title {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 28px;
+  padding-top: 20px;
+}
