@@ -1,4 +1,4 @@
-import React, { useRef, useContext, useState } from 'react'
+import React, { useRef, useContext, useState, useEffect } from 'react'
 import { AppContext } from '../context/AppContext'
 import { useHistory } from 'react-router-dom'
 
@@ -6,7 +6,10 @@ function Login() {
 
     const [isVisible, setIsVisible] = useState(false)
 
-    const { setUser } = useContext(AppContext)
+    const storedUser = localStorage.getItem('new user')
+    const storedUserParsed = storedUser && JSON.parse(storedUser)
+
+    const { user, setUser } = useContext(AppContext)
 
     const history = useHistory()
 
@@ -19,9 +22,9 @@ function Login() {
         let passwordMsg = ''
         let emailMsg = ''
 
-        if (emailRef.current?.value === "")
+        if (emailRef.current?.value !== storedUserParsed.email)
             emailMsg = "Invalid email"
-        if (passwordRef.current?.value === "")
+        if (passwordRef.current?.value !== storedUserParsed.password)
             passwordMsg = "Invalid password"
 
         setValid({
@@ -39,9 +42,13 @@ function Login() {
                     email: emailRef.current.value,
                     isLogin: true
                 })
-            history.push('/cart')
         }
     }
+
+    useEffect(() => {
+        user && localStorage.setItem('isLogged', JSON.stringify(user.isLogin))
+        user.isLogin && history.push('/cart')
+    }, [user, history])
 
     return (
         <div className="login-outter page">

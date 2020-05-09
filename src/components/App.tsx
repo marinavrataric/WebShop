@@ -1,7 +1,8 @@
-import React, { useState, useReducer } from 'react'
+import React, { useState, useEffect } from 'react'
 import { AppContext } from './context/AppContext'
 import NavigationRouter from './navigation-router/NavigationRouter'
 import data from "./data/products.json"
+import createPersistedReducer from 'use-persisted-reducer';
 
 interface User {
     email: string,
@@ -23,7 +24,9 @@ function App() {
 
     const [product] = useState<any>(data)
 
-    const [productList, dispatch] = useReducer((state: any, action: any) => {
+    const usePersistedReducer = createPersistedReducer('cart');
+
+    const [productList, dispatch] = usePersistedReducer((state: any, action: any) => {
         switch (action.type) {
             case 'ADD_ITEM':
                 const noDoubleItems = state.filter((item: any) => item.id !== action.payload.id)
@@ -43,6 +46,12 @@ function App() {
     });
 
     const totalAmountRounded = totalAmount.toFixed(2)
+
+    useEffect(() => {
+        const data = localStorage.getItem('isLogged')
+        const dataIsLogin = data && JSON.parse(data)
+        setUser({...user, isLogin: dataIsLogin})
+    }, [])
 
     return (
         <div>

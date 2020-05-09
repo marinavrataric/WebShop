@@ -5,6 +5,11 @@ function ConfirmForm() {
 
     const { nextStep, prevStep, userInfo } = useContext(UserContext)
 
+    const handleConfirm = () => {
+        localStorage.setItem('new user', JSON.stringify(userInfo))
+        nextStep()
+    }   
+
     return (
         <div className="about page">
             <p className="user-title">Confirm</p>
@@ -33,7 +38,7 @@ function ConfirmForm() {
                 {userInfo.phone}
             </p>
             <button className="btn-back" onClick={() => prevStep()}>Back</button>
-            <button className="btn-next" onClick={() => nextStep()}>Confirm</button>
+            <button className="btn-next" onClick={handleConfirm}>Confirm</button>
         </div>
     )
 }
