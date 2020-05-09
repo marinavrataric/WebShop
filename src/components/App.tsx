@@ -11,6 +11,14 @@ interface User {
 
 function App() {
 
+    const [user, setUser] = useState<User>(
+        {
+            email: '',
+            password: '',
+            isLogin: false
+        }
+    )
+
     const [visible, setVisible] = useState(false)
 
     const [product] = useState<any>(data)
@@ -42,7 +50,8 @@ function App() {
                 visible, setVisible,
                 product,
                 productList, dispatch,
-                totalAmountRounded
+                totalAmountRounded,
+                user, setUser
             }}>
                 <NavigationRouter />
             </AppContext.Provider>

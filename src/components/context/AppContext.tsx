@@ -22,5 +22,17 @@ export const AppContext = createContext({
         }
     }],
     dispatch: ({ }) => { },
-    totalAmountRounded: "0.00 kn"
+    totalAmountRounded: "0.00 kn",
+    user: {
+        email: '',
+        password: '',
+        isLogin: false
+    },
+    setUser: (user: (
+        {
+            email: string,
+            password: string,
+            isLogin: boolean
+        }
+    )) => { },
 })
