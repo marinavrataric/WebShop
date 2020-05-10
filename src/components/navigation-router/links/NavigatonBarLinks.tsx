@@ -1,7 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
+import { AppContext } from '../../context/AppContext'
 
 function NavigationBarLinks() {
+
+    const { user, setUser } = useContext(AppContext)
+
+    const handleLogout = (e:any) => {
+        if(user.isLogin){
+            const logoutMsg = window.confirm("Are you sure you want to log out?")
+            if(logoutMsg) {
+                setUser({...user, isLogin: false})
+            }else {
+                e.preventDefault()
+            }
+        }
+    }
+
     return (
         <ul className="navbar-ul">
             <li className="navbar-li">
@@ -34,7 +49,8 @@ function NavigationBarLinks() {
                     to="/login"
                     className="inactive"
                     activeClassName="active"
-                ><i className="fa fa-sign-in" aria-hidden="true"></i>Log in
+                    onClick={handleLogout}
+                ><i className="fa fa-sign-in" aria-hidden="true"></i>{user.isLogin ? 'Log out' : 'Log in'}
                 </NavLink>
             </li>
         </ul>

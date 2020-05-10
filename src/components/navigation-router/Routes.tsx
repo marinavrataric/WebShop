@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Homepage from '../nav-pages/Homepage'
 import Cart from '../nav-pages/Cart'
@@ -13,14 +13,18 @@ import Outdoor from '../rooms/Outdoor'
 import SignUp from '../nav-pages/sign_up/SignUp'
 import ProductDetails from '../ProductDetails'
 import Payment from '../Payment'
+import { AppContext } from '../context/AppContext'
 
 function Routes() {
+
+    const { user } = useContext(AppContext)
+
     return (
         <Switch>
             <Route path="/" exact component={Homepage} />
             <Route path="/cart" exact component={Cart} />
             <Route path="/login" component={Login} />
-            <Route path="/signup" component={SignUp} />
+            <Route path="/signup"  exact render={() => !user.isLogin && <SignUp /> }/>
             <Route path="/livingroom" exact component={LivingRoom} />
             <Route path="/livingroom/:id" component={ProductDetails} />
             <Route path="/bedroom" exact component={Bedroom} />
