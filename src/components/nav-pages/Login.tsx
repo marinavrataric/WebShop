@@ -1,6 +1,6 @@
 import React, { useRef, useContext, useState, useEffect } from 'react'
 import { AppContext } from '../context/AppContext'
-import { useHistory } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 
 function Login() {
 
@@ -73,6 +73,9 @@ function Login() {
                     {valid.passwordErr}
                 </p>
                 <button className="login-btn" onClick={handleLogin}>Log in</button>
+                <p className="link-acc">Don't have an account?
+                    <Link to="/signup" style={{ color: "darkblue" }}> Sign up</Link>
+                </p>
             </div>
         </div>
     )

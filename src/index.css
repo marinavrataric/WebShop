@@ -285,6 +285,11 @@ a {
 
 .item-name {
   font-weight: 600;
+  color: black;
+}
+
+.item-price {
+  color: black;
 }
 
 .item-amount {
@@ -495,10 +500,10 @@ input {
 .login-btn {
   border: none;
   font-size: 16px;
-  padding: 10px 115px;
+  padding: 10px 125px;
   background-color: rgb(3, 161, 3);
   color: white;
-  margin: 20px 0 30px 0;
+  margin: 30px 0 15px 0;
 }
 
 .login-btn:hover {
@@ -515,6 +520,11 @@ input {
   font-size: 12px;
   margin-top: -10px;
   font-style: italic;
+}
+
+.link-acc {
+  padding-bottom: 20px;
+  font-size: 13px;
 }
 
 /* HOME PAGE */

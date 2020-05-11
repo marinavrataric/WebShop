@@ -18,7 +18,7 @@ function Form1() {
 
         if(userInfo.firstName === '') firstNameMsg = 'Invalid first name'
         if(userInfo.lastName === '') lastNameMsg = 'Invalid last name'
-        if(!userInfo.email.includes('@') && !userInfo.email.includes('.')) emailMsg = 'Invalid email'
+        if(!userInfo.email.includes('@') || !userInfo.email.includes('.')) emailMsg = 'Invalid email'
 
         setValidMsg({firstName: firstNameMsg, lastName: lastNameMsg, email: emailMsg})
 
