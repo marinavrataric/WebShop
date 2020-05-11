@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Cart() {
 
-    const { productList, dispatch, totalAmountRounded } = useContext(AppContext)
+    const { productList, dispatch, totalAmountRounded, user } = useContext(AppContext)
 
     const products = productList.map((item: any) => {
         return (
@@ -21,13 +21,18 @@ function Cart() {
         )
     })
 
+    const handlePay = () => {
+        !user.isLogin && alert('You must be logged in')
+    }
+
     return (
         <div className="cart page">
             {products.length === 0 ? <p className="empty-title">Your cart is empty</p> : products}
             <div className="cart-total-div">
                 <p className="cart-subtotal">Sub total: {totalAmountRounded} kn</p>
-                <Link to="/payment">
+                <Link to={user.isLogin ? '/cart/payment' : '/cart'}>
                     <button
+                        onClick={handlePay}
                         className="cart-btn-pay"
                         disabled={totalAmountRounded === '0.00'}
                     >
